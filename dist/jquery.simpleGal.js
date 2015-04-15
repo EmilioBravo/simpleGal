@@ -1,6 +1,6 @@
 /*
  * simpleGal -v0.0.1
- * A simple image gallery plugin.
+ * A simple image gallery plugin
  * https://github.com/steverydz/simpleGal
  * 
  * Made by Steve Rydz
@@ -21,7 +21,7 @@
       return this.each(function () {
 
         var thumbnail = $(this).find("a"),
-            mainImage = $(this).siblings().find(options.mainImage);
+            mainImage = $(options.mainImage);
 
         thumbnail.on("click", function (e) {
           e.preventDefault();

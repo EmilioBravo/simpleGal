@@ -13,7 +13,7 @@
       return this.each(function () {
 
         var thumbnail = $(this).find("a"),
-            mainImage = $(this).siblings().find(options.mainImage);
+            mainImage = $(options.mainImage);
 
         thumbnail.on("click", function (e) {
           e.preventDefault();
